@@ -9,7 +9,7 @@ export default function NavigationBar (){
     return(
 
 <>
-   <Navbar bg="light" expand="md">
+   <Navbar  bg="light" expand="lg">
   <Container fluid>
   <Navbar.Brand href="#home">
         <Image fluid classname="ADSLogo" width="50%"  src="./img/ADStypeLogoB.png" alt="ADS Amanzunza Debt Soultion Pty Ltd Logo"/>
@@ -31,11 +31,11 @@ export default function NavigationBar (){
 
    
         <NavDropdown title="Services" id="navbarScrollingDropdown">
-          <NavDropdown.Item href="#action3">Debt Counseling</NavDropdown.Item>
-          <NavDropdown.Item href="#action4">Debt Review</NavDropdown.Item>
+          <NavDropdown.Item href="#action3">Debt Administration</NavDropdown.Item>
+          <NavDropdown.Item href="#action4">Debt Review Cancellation</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="#action5">
-           Debt Counselor Advise
+           Judgements & Adverse
           </NavDropdown.Item>
         </NavDropdown>
      </Nav>   

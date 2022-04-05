@@ -4,9 +4,11 @@ import NavigationBar from "../../Navigation/Navigation_Bar";
 export default function HomeIndex() {
   return (
     <>
-        <NavigationBar />
+    <div>   <NavigationBar />
+    </div>
+     
 
-
+<br></br>
     <div className="Carousel__Content">
    
     <Carousel variant="dark" fade="1.2">
