@@ -4,17 +4,21 @@ export default function HomeIndex() {
   return (
     <>
         <NavigationBar />
-      <Container className="GridContent__Container">
-        <Row xs={3}>
+      <Container fluid
+       className="GridContent__Container">
+        <Row sm={3}>
           <Col>
             <Card
               style={{
                 width: "18rem"
               }}
             >
-              <Card.Img width="100%" height="220px"  variant="top" src="../img/debt.png" />
+              <Card.Img width="75px" height="200px"  variant="top" src="../img/debt.png" />
               <Card.Body>
-                <Card.Title> Debt Review </Card.Title> <Card.Text></Card.Text>{" "}
+                <Card.Title> Debt Review </Card.Title> 
+                <Card.Text>
+                Debt review cancellation and status update with credit bureau.                                     
+                </Card.Text>{" "}
                 <Button variant="primary"> View More </Button>{" "}
               </Card.Body>{" "}
             </Card>
@@ -24,9 +28,9 @@ export default function HomeIndex() {
                 width: "18rem"
               }}
             >
-              <Card.Img width="100%" height="220px" variant="top" src="../img/judge.png" />
+              <Card.Img width="75px" height="200px"  variant="top" src="../img/judge.png" />
               <Card.Body>
-                <Card.Title> Judgements </Card.Title> <Card.Text></Card.Text>{" "}
+                <Card.Title> Judgements </Card.Title> <Card.Text>administration order removal and status update from credit bureau.                                  </Card.Text>{" "}
                 <Button variant="primary"> View More </Button>{" "}
               </Card.Body>{" "}
             </Card></Col> <Col> <Card
@@ -34,9 +38,9 @@ export default function HomeIndex() {
                 width: "18rem"
               }}
             >
-              <Card.Img width="100%" height="220px" variant="top" src="../img/admin.png" />
+              <Card.Img width="75px" height="200px" variant="top" src="../img/admin.png" />
               <Card.Body>
-                <Card.Title> Administration</Card.Title> <Card.Text></Card.Text>{" "}
+                <Card.Title> Administration</Card.Title> <Card.Text>judgements and Adverse removal from credit bureaus.                                                   </Card.Text>{" "}
                 <Button variant="primary"> View More </Button>{" "}
               </Card.Body>{" "}
             </Card></Col>{" "}
