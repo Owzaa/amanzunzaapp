@@ -9,7 +9,6 @@ export default function NavigationBar (){
 
     return(
 
-<>
    <Navbar StickyTop="Top"  bg="default" expand="lg">
  
   <Navbar.Brand >
@@ -31,23 +30,19 @@ export default function NavigationBar (){
    
       >
 
-   
         <NavDropdown title="Services" id="navbarScrollingDropdown">
-          <NavDropdown.Item href="/services">Debt Administration</NavDropdown.Item>
-          <NavDropdown.Item href="/services">Debt Review Cancellation</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="/services">
-           Judgements & Adverse
-          </NavDropdown.Item>
+        <NavDropdown.Item href="/services">Debt Administration</NavDropdown.Item>
+        <NavDropdown.Item href="/services">Debt Review Cancellation</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="/services">
+        Judgements & Adverse
+        </NavDropdown.Item>
         </NavDropdown>
      </Nav>   
 
   <Nav.Link  className="link-dark ms-2" href="/contact-us">Contact</Nav.Link>
     </Navbar.Collapse>
 </Navbar>
-
-
-</>
 
 
     );
