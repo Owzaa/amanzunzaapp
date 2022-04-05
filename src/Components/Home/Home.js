@@ -4,7 +4,8 @@ import NavigationBar from "../../Navigation/Navigation_Bar";
 export default function HomeIndex() {
   return (
     <>
-    <div>   <NavigationBar />
+    <div className="navigation__container">   
+        <NavigationBar />
     </div>
      
 
