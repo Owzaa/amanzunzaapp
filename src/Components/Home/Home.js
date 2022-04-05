@@ -1,22 +1,20 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import Carousel from 'react-bootstrap/Carousel';
-import NavigationBar from "../../Navigation/Navigation_Bar";
 export default function HomeIndex() {
   return (
     <>
-    <div className="navigation__container">   
-        <NavigationBar />
-    </div>
+  
      
 
 <br></br>
-    <div className="Carousel__Content">
+    <div fluid className="Container">
    
-    <Carousel variant="dark" fade="1.2">
+    <Carousel variant="dark" fade="5.2">
             <Carousel.Item>
             <img
       className="d-block w-100"
       src="../img/slides/debts1.png"
+      height="450vh"
       alt="First slide"
         />
     <Carousel.Caption>
@@ -27,6 +25,8 @@ export default function HomeIndex() {
     <img
       className="d-block w-100"
       src="../img/slides/economys2.png"
+      height="450vh"
+fluid
       alt="Second slide"
     />
     <Carousel.Caption>
@@ -37,6 +37,8 @@ export default function HomeIndex() {
     <img
       className="d-block w-100"
       src="../img/slides/debts3.jpg"
+       height="450vh"
+
       alt="Third slide"
     />
     <Carousel.Caption>
@@ -46,8 +48,8 @@ export default function HomeIndex() {
 </Carousel>
 <hr></hr>
 <div className="about__Container">
- <span id="TextHeader"><h1 className="text-muted">WHO ARE WE?</h1></span>
-<p  className="Container text-muted">
+ <span id="TextHeader"><h1 className="text-center text-muted"><u>WHO ARE WE?</u></h1></span>
+<p  className="container text-muted">
 in credit legal matters and is clear that since covid 19 has affected almost 
 85 percent of finances it has left majority of consumers struggling to pay 
 their debts so as credit legal expect we commit to assist consumers regain 
@@ -57,11 +59,11 @@ and personal loans
 </div>
 
 <hr></hr>
-<span className="Header__TextContainer">
-    <h1 className="text-muted text-center" id="TextHeader"><bold>OUR SOLUTIONS</bold></h1>
+<span className="HeaderTextContainer">
+    <h1 className="text-muted" id="TextHeader"><u><bold>OUR SOLUTIONS</bold></u></h1>
 </span>
 
-    </div>
+        </div>
       <Container fluid
        className="GridContent__Container">
         <Row md={3}>
@@ -77,7 +79,7 @@ and personal loans
                 <Card.Text>
                 Debt review cancellation and status update with credit bureau.                                     
                 </Card.Text>{" "}
-                <Button variant="primary"> View More </Button>{" "}
+                <Button variant="outlined"> View More </Button>{" "}
               </Card.Body>{" "}
             </Card>
           </Col>{" "}
@@ -89,7 +91,7 @@ and personal loans
               <Card.Img fluid width="75px" height="200px"  variant="top" src="../img/judge.png" />
               <Card.Body>
                 <Card.Title> Judgements & Adverse </Card.Title> <Card.Text>administration order removal and status update from credit bureau.                                  </Card.Text>{" "}
-                <Button variant="primary"> View More </Button>{" "}
+                <Button variant="outlined" color="primary"> View More </Button>{" "}
               </Card.Body>{" "}
             </Card></Col> <Col> <Card
               style={{
@@ -99,11 +101,13 @@ and personal loans
               <Card.Img fluid width="75px" height="200px" variant="top" src="../img/admin.png" />
               <Card.Body>
                 <Card.Title> Administration</Card.Title> <Card.Text>judgements and Adverse removal from credit bureaus.                                                   </Card.Text>{" "}
-                <Button variant="primary"> View More </Button>{" "}
+                <Button variant="outlined"> View More </Button>{" "}
               </Card.Body>{" "}
             </Card></Col>{" "}
         </Row>{" "}
+
       </Container>
+      <hr></hr>
       </>
   );
 }
