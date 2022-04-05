@@ -14,7 +14,7 @@ function App() {
         <NavigationBar sticky="top" />
     </div>
     <HomeIndex />
-    <Footer/>
+    <Footer className="footer"/>
     </Container>
  
   );

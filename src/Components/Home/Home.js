@@ -73,7 +73,7 @@ and personal loans
                 width: "18rem"
               }}
             >
-              <Card.Img fluid width="75px" height="200px"  variant="top" src="../img/debt.png" />
+              <Card.Img className="responsive-image" fluid="true" width="75px" height="200px"  variant="top" src="../img/debt.png" />
               <Card.Body>
                 <Card.Title> Debt Review </Card.Title> 
                 <Card.Text>
@@ -88,7 +88,7 @@ and personal loans
                 width: "18rem"
               }}
             >
-              <Card.Img fluid width="75px" height="200px"  variant="top" src="../img/judge.png" />
+              <Card.Img className="responsive-image" fluid="true" width="75px" height="200px"  variant="top" src="../img/judge.png" />
               <Card.Body>
                 <Card.Title> Judgements & Adverse </Card.Title> <Card.Text>administration order removal and status update from credit bureau.                                  </Card.Text>{" "}
                 <Button variant="outlined" color="primary"> View More </Button>{" "}
@@ -98,7 +98,7 @@ and personal loans
                 width: "18rem"
               }}
             >
-              <Card.Img fluid width="75px" height="200px" variant="top" src="../img/admin.png" />
+              <Card.Img className="responsive-image" fluid="true" width="75px" height="200px" variant="top" src="../img/admin.png" />
               <Card.Body>
                 <Card.Title> Administration</Card.Title> <Card.Text>judgements and Adverse removal from credit bureaus.                                                   </Card.Text>{" "}
                 <Button variant="outlined"> View More </Button>{" "}

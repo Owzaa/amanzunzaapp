@@ -10,10 +10,10 @@ export default function NavigationBar (){
     return(
 
 <>
-   <Navbar NavbarSticky="true"  bg="light" expand="lg">
+   <Navbar StickyTop="Top"  bg="default" expand="lg">
  
-  <Navbar.Brand href="./">
-        <Image fluid classname="ADSLogo" width="50%"  src="./img/ADStypeLogoB.png" alt="ADS Amanzunza Debt Soultion Pty Ltd Logo"/>
+  <Navbar.Brand >
+        <Image href="./" fluid='true' classname="image-responsive ADSLogo" width="50%"  src="./img/ADStypeLogoB.png" alt="ADS Amanzunza Debt Soultion Pty Ltd Logo"/>
     </Navbar.Brand>
 
     <Navbar.Toggle aria-controls="navbarScroll" /> 
@@ -21,11 +21,11 @@ export default function NavigationBar (){
     
     <Navbar.Collapse id="navbarScroll">
   
-    <Nav.Link  className="link-dark ms-2" href="./"> <MDBIcon icon='home' size='lg' /></Nav.Link>
+    <Nav.Link  className="link-dark ms-4" href="./"> <MDBIcon icon='home' size='lg' /></Nav.Link>
     <Nav.Link className="link-dark ms-2" href="/about">About</Nav.Link>
 
       <Nav
-        className="me-auto  my-lg-0"
+        className="me-auto lg-0"
         style={{ maxHeight: '100px',fontWeight:'bolder' }}
         navbarScroll
    

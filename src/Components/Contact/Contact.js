@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-import {Navbar,Nav,Container} from 'react-bootstrap'
+import {Form,Button} from 'react-bootstrap'
 
 
 // Form Completion Function
@@ -9,39 +9,35 @@ export default function ContactForm (){
     render(
 
 <>
-  <Navbar bg="dark" variant="dark">
-    <Container>
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-    <Nav className="me-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-    </Nav>
-    </Container>
-  </Navbar>
-  <br />
-  <Navbar bg="primary" variant="dark">
-    <Container>
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-    <Nav className="me-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-    </Nav>
-    </Container>
-  </Navbar>
-
-  <br />
-  <Navbar bg="light" variant="light">
-    <Container>
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-    <Nav className="me-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-    </Nav>
-    </Container>
-  </Navbar>
+<div style={{ display: 'block', 
+                  width: 700, 
+                  padding: 30 }}>
+      <h4>React-Bootstrap Form Component</h4>
+      <Form onsubmit={"submit"}>
+      <Form.Group>
+          <Form.Label>Enter your full name:</Form.Label>
+          <Form.Control type="text" 
+                        placeholder="Enter your full name" />
+        </Form.Group>
+        <Form.Group>
+          <Form.Label>Subject:</Form.Label>
+          <Form.Control type="text" 
+                        placeholder="E-mail Subject...." />
+        </Form.Group>
+        <Form.Group>
+          <Form.Label>Enter your email address:</Form.Label>
+          <Form.Control type="email" 
+                        placeholder="Enter your your email address" />
+        </Form.Group>
+        <Form.Group>
+          <Form.Label>Requested Service:</Form.Label>
+          <Form.Control type="select" placeholder="choose your Service?" />
+        </Form.Group>
+        <Button variant="primary" type="submit">
+          submit form
+        </Button>
+      </Form>
+    </div>
 </>
 
 
