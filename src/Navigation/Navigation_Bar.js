@@ -12,7 +12,7 @@ export default function NavigationBar (){
    <Navbar bg="light" expand="md">
   <Container fluid>
   <Navbar.Brand href="#home">
-        <Image fluid classname="ADSLogo" width="18%"  src="./img/ADSLogoB.png" alt="ADS Amanzunza Debt Soultion Pty Ltd Logo"/>
+        <Image fluid classname="ADSLogo" width="50%"  src="./img/ADStypeLogoB.png" alt="ADS Amanzunza Debt Soultion Pty Ltd Logo"/>
     </Navbar.Brand>
 
     <Navbar.Toggle aria-controls="navbarScroll" /> 
