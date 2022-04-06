@@ -5,10 +5,16 @@ import { MDBIcon } from 'mdb-react-ui-kit';
 
 const Footer = () => (
   <div className="footer">
-    <p className="text-muted text-center" >Copyright © 2022 | Amanzunza Debt Solutions (Pty) Ltd |
-    <span id="weblink"><p>Website:<NavLink href="https://www.amanzunzadebtsolutions.co.za">www.amanzunzadebtsolution.co.za</NavLink></p></span>   </p>
-         <h5 className="text-muted">Social Media Links:</h5>
-  <span className="SocialIcons">
+      <div className="footer__element">
+    <p className="text-muted text-center" >2022 Copyright ©  | Amanzunza Debt Solutions (Pty) Ltd |
+     </p>
+    <span className="text-center" id="weblink"><p>Website:<NavLink href="https://www.amanzunzadebtsolutions.co.za">www.amanzunzadebtsolution.co.za</NavLink></p></span>  
+</div> 
+
+<hr></hr>     
+ 
+ <h5 className="text-muted">Follow us::</h5>
+     <span className="SocialIcons">
         <a href="https://www.facebook.com/"><MDBIcon fab size="2x" icon="facebook" /></a>
         <a href="https://www.messenger.com/"> <MDBIcon fab size="2x"  icon="facebook-messenger" /> </a>
         <a href="https://www.instagram.com/"><MDBIcon fab size="2x"  icon="instagram" /> </a>

@@ -3,9 +3,9 @@ import React from 'react';
 export default function About__Us () {
     
         return (
-            <div>
-
-            </div>
+            <>
+                <h3 className="text-center text-muted">Amanzunza Debt Solutions (Pty) Ltd</h3>
+            </>
         );
 
 

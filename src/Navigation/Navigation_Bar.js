@@ -9,10 +9,10 @@ export default function NavigationBar (){
 
     return(
 
-   <Navbar StickyTop="Top"  bg="default" expand="lg">
+   <Navbar sticky="top"  bg="default" expand="lg">
  
   <Navbar.Brand >
-        <Image href="./" fluid='true' classname="image-responsive ADSLogo" width="50%"  src="./img/ADStypeLogoB.png" alt="ADS Amanzunza Debt Soultion Pty Ltd Logo"/>
+        <Image href="./" fluid="true" className="image-responsive" width="50%"  src="./img/ADStypeLogoB.png" alt="ADS Amanzunza Debt Soultion Pty Ltd Logo"/>
     </Navbar.Brand>
 
     <Navbar.Toggle aria-controls="navbarScroll" /> 
