@@ -6,10 +6,10 @@ export default function HomeIndex() {
   
      
 
-<br></br>
+
     <div fluid className="Container">
    
-    <Carousel variant="dark" fade="5.2">
+    <Carousel variant="white" fade="5.2">
             <Carousel.Item>
             <img
       className="d-block w-100"
@@ -48,8 +48,7 @@ fluid
 </Carousel>
 <hr></hr>
 <div className="about__Container">
- <span id="TextHeader"><h1 className="text-center text-muted"><u>WHO ARE WE?</u></h1></span>
-<p  className="container text-muted">
+<h1 className="text-center text-muted"><u>WHO ARE WE?</u></h1><p  className="container text-muted">
 in credit legal matters and is clear that since covid 19 has affected almost 
 85 percent of finances it has left majority of consumers struggling to pay 
 their debts so as credit legal expect we commit to assist consumers regain 
@@ -73,7 +72,7 @@ and personal loans
                 width: "18rem"
               }}
             >
-              <Card.Img className="responsive-image" fluid="true" width="75px" height="200px"  variant="top" src="../img/debt.png" />
+              <Card.Img className="responsive-image" fluid width="75px" height="200px"  variant="top" src="../img/debt.png" />
               <Card.Body>
                 <Card.Title> Debt Review </Card.Title> 
                 <Card.Text>
@@ -88,7 +87,7 @@ and personal loans
                 width: "18rem"
               }}
             >
-              <Card.Img className="responsive-image" fluid="true" width="75px" height="200px"  variant="top" src="../img/judge.png" />
+              <Card.Img className="responsive-image" fluid width="75px" height="200px"  variant="top" src="../img/judge.png" />
               <Card.Body>
                 <Card.Title> Judgements & Adverse </Card.Title> <Card.Text>administration order removal and status update from credit bureau.                                  </Card.Text>{" "}
                 <Button variant="outlined" color="primary"> View More </Button>{" "}
@@ -98,7 +97,7 @@ and personal loans
                 width: "18rem"
               }}
             >
-              <Card.Img className="responsive-image" fluid="true" width="75px" height="200px" variant="top" src="../img/admin.png" />
+              <Card.Img className="responsive-image" fluid  width="75px" height="200px" variant="top" src="../img/admin.png" />
               <Card.Body>
                 <Card.Title> Administration</Card.Title> <Card.Text>judgements and Adverse removal from credit bureaus.                                                   </Card.Text>{" "}
                 <Button variant="outlined"> View More </Button>{" "}

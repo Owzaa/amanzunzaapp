@@ -9,14 +9,14 @@ import Footer from './Footer/Footer_Bottom';
 function App() {
   return (
 
-    <Container >
+    <container>
       
     <NavigationBar  />
      
     <HomeIndex />
  
-    <Footer className="footer"/>
-    </Container>
+    <Footer/>
+    </container>
  
   );
 }
