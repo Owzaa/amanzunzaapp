@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-bootstrap";
 import { MDBIcon } from 'mdb-react-ui-kit';
+import "./footer.css";
 
 
 const Footer = () => (
