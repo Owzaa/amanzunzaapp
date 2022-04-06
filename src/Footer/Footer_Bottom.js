@@ -5,13 +5,14 @@ import "./footer.css";
 
 
 const Footer = () => (
+  <>
   <div className="footer">
       <div className="footer__element">
-    <p className="text-muted text-center" >2022 Copyright ©  | Amanzunza Debt Solutions (Pty) Ltd |
-     </p>
+    <p className="text-center" >2022 Copyright ©  | Amanzunza Debt Solutions (Pty) Ltd |
+     </p> 
     <span className="text-center" id="weblink"><p>Website:<NavLink href="https://www.amanzunzadebtsolutions.co.za">www.amanzunzadebtsolution.co.za</NavLink></p></span>  
 </div> 
-
+ </div>
 <hr></hr>     
  
  <h5 className="text-muted">Follow us::</h5>
@@ -23,7 +24,7 @@ const Footer = () => (
   <a href="https://www.linkedin.com/"><MDBIcon fab size="2x"  icon="google-plus" /></a>
   </span>
   
-  </div>
+ </>
 );
 
 export default Footer;

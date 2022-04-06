@@ -1,6 +1,13 @@
 .footer{
     display: flex;
-    background-color: rgba(16, 16, 16, 0.899);
-    color:#fff;
+    background-color: rgba(36, 35, 35, 0.688);
+    color:rgb(251, 251, 251);
     justify-content: center;
+}
+.footer__element{
+    background-color: rgb(248, 248, 248);
+    color: rgb(5, 74, 135);
+}
+p {
+    font-size: larger;
 }
