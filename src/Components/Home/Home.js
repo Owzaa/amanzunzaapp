@@ -11,7 +11,7 @@ export default function HomeIndex() {
     <Carousel variant="white" fade="5.2">
             <Carousel.Item>
             <img
-      className="d-block w-100"
+      className="mdb-logotypes d-block w-100"
       src="../img/slides/debts1.png"
       height="420vh"
       alt="First slide"
@@ -34,7 +34,7 @@ fluid
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className=" bg-image d-block w-100"
       src="../img/slides/debts3.jpg"
        height="480vh"
 
@@ -47,13 +47,13 @@ fluid
 </Carousel>
 <hr></hr>
 <div className="aboutusContainer">
-<h1 className="text-center text-muted"><u>WHO ARE WE?</u></h1><p  className="container text-muted">
-in credit legal matters and is clear that since covid 19 has affected almost 
+<h3 className="text-muted">AD Solutions Strategic Approach</h3>
+<span className="container text-muted">In credit legal matters it is clear that since covid 19 has affected almost 
 85 percent of finances it has left majority of consumers struggling to pay 
 their debts so as credit legal expect we commit to assist consumers regain 
 their financial freedom to can qualify again for vehicle finances homes loans 
 and personal loans
-</p>
+</span>
 </div>
 
 <hr></hr>
@@ -64,7 +64,7 @@ and personal loans
       
       <Container 
        className="GridContent">
-        <Row xs={2}>
+        <Row xs={3}>
           <Col>
             <Card
               style={{

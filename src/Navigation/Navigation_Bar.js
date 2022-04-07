@@ -9,7 +9,7 @@ export default function NavigationBar (){
 
     return(
 
-   <Navbar sticky="top"  bg="default" expand="lg">
+   <Navbar sticky="top"  bg="white" expand="lg">
  
   <Navbar.Brand >
         <Image href="./" fluid="true" className="image-responsive" width="50%"  src="./img/ADStypeLogoB.png" alt="ADS Amanzunza Debt Soultion Pty Ltd Logo"/>
