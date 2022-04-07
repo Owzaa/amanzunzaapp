@@ -6,36 +6,37 @@ import "./footer.css";
 
 const Footer = () => (
   <>
-  <div className="footer">
-    <aside className="address">
-  <address>
-<span>  <a href="mailto:thabo@adsolution.co.za">
-<MDBIcon fab size="2x" icon="mailBox" />  thabo@adsolution.co.za
-</a>
+    <div className="footer">
+      <aside className="adress">
+        <address>
+
+          <span>  <a href="mailto:thabo@adsolution.co.za">
+            <MDBIcon fab size="2x" icon="mailBox" />  thabo@adsolution.co.za
+          </a>
 
 
-<br></br>
-  <a href="tel:+27721297813">Mobile: (+27)72 1297 813</a></span> 
-</address>
-</aside>
+            <br></br>
+            <a href="tel:+27721297813">Mobile: (+27)72 1297 813</a></span>
+        </address>
+      </aside>
       <div className="footer__element">
         <p className="text-center" >2022 Copyright ©  | Amanzunza Debt Solutions (Pty) Ltd |
-        </p> 
-          <span className="text-center" id="weblink"><p>Website:<NavLink href="https://www.amanzunzadebtsolutions.co.za">www.amanzunzadebtsolution.co.za</NavLink></p></span>  
+        </p>
+        <span className="text-center" id="weblink"><p>Website:<NavLink href="https://www.adsolution.co.za"> adsolution.co.za</NavLink></p></span>
 
-    </div>  </div>
-<hr></hr>     
- 
- <h5 className="text-muted">Follow us::</h5>
-     <span className="SocialIcons">
-        <a href="https://www.facebook.com/"><MDBIcon fab size="2x" icon="facebook" /></a>
-        <a href="https://www.messenger.com/"> <MDBIcon fab size="2x"  icon="facebook-messenger" /> </a>
-        <a href="https://www.instagram.com/"><MDBIcon fab size="2x"  icon="instagram" /> </a>
-  <a href="https://www.linkedin.com/"><MDBIcon fab size="2x"  icon="linkedin" /> </a>
-  <a href="https://www.linkedin.com/"><MDBIcon fab size="2x"  icon="google-plus" /></a>
-  </span>
-  
- </>
+      </div>  </div>
+    <hr></hr>
+
+    <h5 className="text-muted">Follow us:</h5>
+    <span className="SocialIcons">
+      <a href="https://www.facebook.com/adsolution/"><MDBIcon fab size="2x" icon="facebook" /></a>
+      <a href="https://www.messenger.com/adsolution/"> <MDBIcon fab size="2x" icon="facebook-messenger" /> </a>
+      <a href="https://www.instagram.com/"><MDBIcon fab size="2x" icon="instagram" /> </a>
+      <a href="https://www.linkedin.com/"><MDBIcon fab size="2x" icon="linkedin" /> </a>
+      <a href="https://www.linkedin.com/"><MDBIcon fab size="2x" icon="google-plus" /></a>
+    </span>
+
+  </>
 );
 
 export default Footer;

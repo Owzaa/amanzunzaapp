@@ -1,16 +1,26 @@
 .footer{
     display: flex;
-    background-color: rgba(255, 255, 255, 0.688);
+    background-color: rgba(255, 255, 255, 0.894);
     color:rgb(251, 251, 251);
-    justify-content: center;
+
+justify-items: auto;
 }
 .footer__element{
+    flex: 1;
     background-color: rgb(248, 248, 248);
     color: rgb(11, 40, 65);
+    justify-content: center;
+    justify-items: center;
 }
 p {
-    font-size: larger;
+    font-size: 12pt;
 }
 a{
     text-decoration: none;
+}
+.adress{
+    display: flex;
+    justify-content:flex-start;
+    float: left
+    ;
 }

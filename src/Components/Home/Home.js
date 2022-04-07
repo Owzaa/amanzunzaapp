@@ -47,8 +47,8 @@ fluid
 </Carousel>
 <hr></hr>
 <div className="aboutusContainer">
-<h3 className="text-muted">AD Solutions Strategic Approach</h3>
-<span className="container text-muted">In credit legal matters it is clear that since covid 19 has affected almost 
+<h4 className="text-muted">AD Solutions </h4>
+<span className="Container text-muted">In credit legal matters it is clear that since covid 19 has affected almost 
 85 percent of finances it has left majority of consumers struggling to pay 
 their debts so as credit legal expect we commit to assist consumers regain 
 their financial freedom to can qualify again for vehicle finances homes loans 
@@ -64,7 +64,7 @@ and personal loans
       
       <Container 
        className="GridContent">
-        <Row xs={3}>
+        <Row md={3}>
           <Col>
             <Card
               style={{
@@ -86,20 +86,20 @@ and personal loans
                 width: "17rem"
               }}
             >
-              <Card.Img className="responsive-image"  width="75px" height="200px"  variant="top" src="../img/judge.png" />
+              <Card.Img className="responsive-image"  width="45px" height="200px"  variant="top" src="../img/judge.png" />
               <Card.Body>
                 <Card.Title> Judgements & Adverse </Card.Title> <Card.Text>administration order removal and status update from credit bureau.                                  </Card.Text>{" "}
-                <Button variant="outlined" color="primary"> View More </Button>{" "}
+                <Button variant="outlined" color="secondary"> View More </Button>{" "}
               </Card.Body>{" "}
             </Card></Col> <Col> <Card
               style={{
                 width: "17rem"
               }}
             >
-              <Card.Img className="responsive-image"  width="75px" height="200px" variant="top" src="../img/admin.png" />
+              <Card.Img className="responsive-image"  width="45px" height="200px" variant="top" src="../img/admin.png" />
               <Card.Body>
                 <Card.Title> Administration</Card.Title> <Card.Text>judgements and Adverse removal from credit bureaus.                                                   </Card.Text>{" "}
-                <Button variant="outlined"> View More </Button>{" "}
+                <Button variant="contained"> View More </Button>{" "}
               </Card.Body>{" "}
             </Card></Col>{" "}
         </Row>{" "}
