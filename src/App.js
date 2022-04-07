@@ -9,7 +9,7 @@ import Footer from './Footer/Footer_Bottom';
 function App() {
   return (
 
-    <Container fullWidth>
+    <Container >
       
     <NavigationBar  />
      
