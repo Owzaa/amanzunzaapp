@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function About__Us () {
+export default function AboutUs () {
     
         return (
             <>

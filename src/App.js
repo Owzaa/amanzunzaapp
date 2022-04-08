@@ -1,21 +1,30 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
-import HomeIndex from './Components/Home/Home';
+//import HomeIndex from './Components/Home/Home';
 import NavigationBar from "./Navigation/Navigation_Bar";
 import './index.css';
 import Footer from './Footer/Footer_Bottom';
+import HomeIndex from './Components/Home/Home';
+//import Routes  from './Components/routes';
+
 
 
 function App() {
-  return (
+ return (
 
     <Container >
-      
-    <NavigationBar  />
-     
-    <HomeIndex />
- 
+
+   
+
+            
+  <NavigationBar  />   
+    <HomeIndex/>
+   
+
+  
+
     <Footer/>
+ 
     </Container>
  
   );

@@ -1,21 +1,33 @@
 import React from "react";
-import { render } from "react-dom";
-import {Form,Button} from 'react-bootstrap'
+
+import {Form,Button, Alert} from 'react-bootstrap';
+import './contactForm.css'
 
 
 // Form Completion Function
-export default function ContactForm (){
-        let handleSubmit = (e) => {
-          e.preventDefault();
-        }
-    render(
+class ContactForm extends React.Component{
+  constructor(props) {
+    super(props);
+    this.state = {value: ''};
 
-<>
-        <div style={{ display: 'block', 
-                  width: 700, 
-                  padding: 30 }}>
-      <h4>Amanzunza Debt SolutionS</h4>
-      <Form action="Post" onsubmit={handleSubmit}>
+      //binding stateEvent
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+
+  }
+  handleChange(event) {
+    this.setState({value: event.target.value});
+  }
+  handleSubmit(event) {
+          Alert('A Your Fom was submitted: ' + this.state.value);
+          event.preventDefault();
+    }
+  
+     render(){
+       return(
+        <>
+        <span> <h4>Amanzunza Debt SolutionS</h4></span>
+      <Form onSubmit={this.handleSubmit}>
       <Form.Group>
           <Form.Label>Enter your full name:</Form.Label>
           <Form.Control id="fullName" type="text" 
@@ -39,9 +51,8 @@ export default function ContactForm (){
           submit form
         </Button>
       </Form>
-    </div>
-</>
-
-
+      </>
     );
 }
+}
+export default ContactForm;

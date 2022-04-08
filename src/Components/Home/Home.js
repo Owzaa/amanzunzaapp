@@ -4,10 +4,6 @@ export default function HomeIndex() {
   return (
     <>
   
-     
-
-
-   
     <Carousel variant="white" fade="5.2">
             <Carousel.Item>
             <img
