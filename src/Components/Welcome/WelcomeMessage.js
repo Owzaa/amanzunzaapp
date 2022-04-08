@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 function WelcomeMessage() {
+    const [counter,setCounter] = useState(0);
+
     return (
         <div className="Welcome-Container">
             <header className="App-header">
