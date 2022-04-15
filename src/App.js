@@ -28,9 +28,10 @@ function App() {
   ]);
 
  return (
- <div className="wrap" >
+ <div className="container" >
     <NavigationBar/> 
-        {element}
+       
+       <div className='container'>  {element}   </div>
 
       <Footer/>
 

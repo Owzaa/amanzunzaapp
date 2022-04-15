@@ -13,7 +13,7 @@ export default function routes(){
       <Routes>
          <Route  path="/" element={<Home />} />
          <Route path="about-us" element={<AboutUs/>} /> 
-         <Route path="/services" element={<ServicePage/>} /> 
+         <Route path="/services-solutions" element={<ServicePage/>} /> 
          <Route path="/contact-us" element={<ContactForm />} />
         
       </Routes>

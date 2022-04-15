@@ -19,27 +19,27 @@ export default function NavigationBar (){
     
     <Navbar.Collapse id="navbarScroll">
   
-    <a href="/" className="link-dark ms-4" > <MDBIcon icon='home' size='lg' /></a>
+    <a href="/" className="link-dark ms-2" > <MDBIcon icon='home' size='lg' /></a>
     <a href="/about-us" className="link-dark ms-2" >About</a>
 
       <Nav
-        className="me-auto ms-0"
+        className="me-auto ms-2"
         style={{ maxHeight: '100px',fontWeight:'bolder' }}
         navbarScroll
    
       >
 
         <NavDropdown title="Services" id="navbarScrollingDropdown">
-        <NavDropdown.Item href="/services">Debt Administration</NavDropdown.Item>
-        <NavDropdown.Item href="/services">Debt Review Cancellation</NavDropdown.Item>
+        <NavDropdown.Item href="/services-solutions">Debt Administration</NavDropdown.Item>
+        <NavDropdown.Item href="/services-solutions">Debt Review Cancellation</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="/services" >
+        <NavDropdown.Item href="/services-solutions" >
    Judgements & Adverse
         </NavDropdown.Item>
         </NavDropdown>
      </Nav>   
 
-  <Nav.Link  className="link-dark ms-2" href="/contact-us">Contact</Nav.Link>
+  <Nav.Link  className="link-dark lg-2" href="/contact-us">Contact</Nav.Link>
     </Navbar.Collapse>
 </Navbar>
 
