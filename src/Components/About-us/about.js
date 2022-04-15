@@ -1,6 +1,5 @@
 import React from 'react';
-
-export default function AboutUs () {
+const AboutUs = () => {
     
         return (
             <>
@@ -10,3 +9,4 @@ export default function AboutUs () {
 
 
 }
+export default AboutUs;

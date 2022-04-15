@@ -3,16 +3,15 @@ import {Navbar,Nav,NavDropdown} from 'react-bootstrap';
 import Image from 'react-bootstrap/Image'
 import { MDBIcon } from 'mdb-react-ui-kit';
 
-
 // Form Completion Function
 export default function NavigationBar (){
 
     return(
 
-   <Navbar sticky="top"  bg="white" expand="lg">
+   <Navbar sticky="top"  bg="white" expand="md">
  
   <Navbar.Brand >
-        <Image href="./" fluid="true" className="image-responsive" width="50%"  src="./img/ADStypeLogoB.png" alt="ADS Amanzunza Debt Soultion Pty Ltd Logo"/>
+        <Image href="./" className="image-responsive" width="50%"  src="./img/ADStypeLogoB.png" alt="ADS Amanzunza Debt Soultion Pty Ltd Logo"/>
     </Navbar.Brand>
 
     <Navbar.Toggle aria-controls="navbarScroll" /> 
@@ -20,11 +19,11 @@ export default function NavigationBar (){
     
     <Navbar.Collapse id="navbarScroll">
   
-    <Nav.Link  className="link-dark ms-4" href="./"> <MDBIcon icon='home' size='lg' /></Nav.Link>
-    <Nav.Link className="link-dark ms-2" href="/about">About</Nav.Link>
+    <a href="/" className="link-dark ms-4" > <MDBIcon icon='home' size='lg' /></a>
+    <a href="/about-us" className="link-dark ms-2" >About</a>
 
       <Nav
-        className="me-auto lg-0"
+        className="me-auto ms-0"
         style={{ maxHeight: '100px',fontWeight:'bolder' }}
         navbarScroll
    
@@ -34,8 +33,8 @@ export default function NavigationBar (){
         <NavDropdown.Item href="/services">Debt Administration</NavDropdown.Item>
         <NavDropdown.Item href="/services">Debt Review Cancellation</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="/services">
-        Judgements & Adverse
+        <NavDropdown.Item href="/services" >
+   Judgements & Adverse
         </NavDropdown.Item>
         </NavDropdown>
      </Nav>   

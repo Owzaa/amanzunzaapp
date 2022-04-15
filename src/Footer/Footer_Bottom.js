@@ -1,17 +1,23 @@
+import { MDBIcon } from 'mdb-react-ui-kit';
 import React from "react";
 import { NavLink } from "react-bootstrap";
-import { MDBIcon } from 'mdb-react-ui-kit';
 import "./footer.css";
 
+ const Font = {size: 16}; 
 
+ React.createElement("h6", { style: Font });
 const Footer = () => (
+  
+ 
+
   <>
     <div className="footer">
-      <aside className="adress">
+      <aside className="address">
         <address>
-
+  <div className="footerAddressHeader" > 
+  <h6  className="text-muted" styles={Font}> Our Contact Details </h6> </div>
           <span>  <a href="mailto:thabo@adsolution.co.za">
-            <MDBIcon fab size="2x" icon="mailBox" />  thabo@adsolution.co.za
+            <MDBIcon fab size="2x" icon="mailBox" /> thabo@adsolution.co.za
           </a>
 
 
