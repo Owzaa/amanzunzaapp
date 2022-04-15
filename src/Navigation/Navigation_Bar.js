@@ -8,10 +8,10 @@ export default function NavigationBar (){
 
     return(
 
-   <Navbar sticky="top"  bg="white" expand="md">
+   <Navbar sticky="top"  bg="white" expand="lg">
  
   <Navbar.Brand >
-        <Image href="./" className="image-responsive" width="50%"  src="./img/ADStypeLogoB.png" alt="ADS Amanzunza Debt Soultion Pty Ltd Logo"/>
+        <Image href="/" className="image-responsive" width="35%"  src="./img/ADStypeLogoB.png" alt="ADS Amanzunza Debt Soultion Pty Ltd Logo"/>
     </Navbar.Brand>
 
     <Navbar.Toggle aria-controls="navbarScroll" /> 
@@ -19,11 +19,11 @@ export default function NavigationBar (){
     
     <Navbar.Collapse id="navbarScroll">
   
-    <a href="/" className="link-dark ms-2" > <MDBIcon icon='home' size='lg' /></a>
-    <a href="/about-us" className="link-dark ms-2" >About</a>
+    <a href="/" className="link-lighter md-2" > <MDBIcon icon='home' size='lg' /> </a>
+    <Nav.Link href="/about-us" className="link-dark md-2" > About</Nav.Link>
 
       <Nav
-        className="me-auto ms-2"
+        className="me-auto md-2"
         style={{ maxHeight: '100px',fontWeight:'bolder' }}
         navbarScroll
    
@@ -39,7 +39,7 @@ export default function NavigationBar (){
         </NavDropdown>
      </Nav>   
 
-  <Nav.Link  className="link-dark lg-2" href="/contact-us">Contact</Nav.Link>
+  <Nav.Link  className="link-dark md-2" href="/contact-us">Contact</Nav.Link>
     </Navbar.Collapse>
 </Navbar>
 

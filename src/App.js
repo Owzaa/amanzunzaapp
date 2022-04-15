@@ -8,6 +8,7 @@ import Home from './Components/Home/Home';
 import AboutUs from './Components/About-us/about';
 import ServicePage from './Components/Services/services';
 import ContactForm from './Components/Contact/Contact';
+import "./Main.css";
 
 
 
@@ -28,10 +29,10 @@ function App() {
   ]);
 
  return (
- <div className="container" >
+ <div className="App" >
     <NavigationBar/> 
        
-       <div className='container'>  {element}   </div>
+       <div className='content'>  {element}   </div>
 
       <Footer/>
 
