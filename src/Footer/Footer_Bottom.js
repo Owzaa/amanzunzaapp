@@ -24,8 +24,8 @@ const Footer = () => (
 
             <br></br>
             <a href="tel:+27721297813">
-            <i class="fas fa-mobile-alt"></i>  (+27)72 1297 813</a><br/>
-              <a href="https://www.adsolution.co.za">    <i class="fas fa-globe"> adsolution.co.za</i> </a>
+            <i className="fas fa-mobile-alt"></i>  (+27)72 1297 813</a><br/>
+              <a href="https://www.adsolution.co.za">    <i className="fas fa-globe"> adsolution.co.za</i> </a>
         
     </address>
       </aside>

@@ -64,16 +64,15 @@ const Home = () => {
       </span>
       <hr></hr>
 
-      <wrapper
-      className="container">
-        <Row  md={3} Spacing={2}>
+     <div className="container">
+        <Row  md={3} spacing={2}>
           <Col>
             <Card
               style={{
                 width: "18rem"
               }}
             >
-              <Card.Img   className="responsive-image" width="35px" height="200px" variant="bottom" src="../img/debt.png" />
+              <Card.Img   className="responsive-image" alt="Debt-Review" width="35px" height="200px" variant="bottom" src="../img/debt.png" />
               <Card.Body>
                 <Card.Title className="text-center text-info"> Debt-Review </Card.Title>
                 <Card.Text>
@@ -88,7 +87,7 @@ const Home = () => {
               width: "18rem"
             }}
           >
-            <Card.Img className="responsive-image" width="35px" height="200px" variant="bottom" src="../img/judge.png" />
+            <Card.Img className="responsive-image" alt="Debt" width="35px" height="200px" variant="bottom" src="../img/judge.png" />
             <Card.Body>
               <Card.Title className="text-center text-danger">Debt-Administration  </Card.Title  > <Card.Text >administration order removal and status update from credit bureau.                                  </Card.Text>{" "}
               <Button href="/services-solutions" variant="outlined" color="info"> View More </Button>{" "}
@@ -98,7 +97,7 @@ const Home = () => {
               width: "18rem"
             }}
           >
-            <Card.Img className="responsive-image" width="35px" height="200px" variant="bottom" src="../img/admin.png" />
+            <Card.Img className="responsive-image" alt="Judgements" width="35px" height="200px" variant="bottom" src="../img/admin.png" />
             <Card.Body>
               <Card.Title className="text-center text-warning">Judgements & Adverse </Card.Title> <Card.Text>judgements and Adverse removal from credit bureaus.                                                   </Card.Text>{" "}
               <Button href="/services-solutions" color="success" variant="outlined"> View More </Button>{" "}
@@ -106,7 +105,7 @@ const Home = () => {
           </Card></Col>
         </Row>
 
-      </wrapper>
+      </div>
   
       <hr></hr>
       <div className="Jumbotron" >
@@ -118,9 +117,7 @@ const Home = () => {
   <hr />
 </div>
 
-<span className="HeaderTextContainer">
-        <h1 className="text-muted text-center" id="TextHeader">Our Location</h1>
-      </span>
+
     </section>
   );
 }

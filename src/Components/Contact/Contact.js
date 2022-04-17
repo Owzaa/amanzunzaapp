@@ -78,7 +78,7 @@ class ContactForm extends React.Component {
               </FormText>
             </Form.Group>
             <br />
-            <Button id="buttonSubmitText" class="btn btn-primary" variant="warning" type="submit">
+            <Button id="buttonSubmitText" className="btn btn-primary" variant="warning" type="submit">
               submit form
             </Button>
 <br/>

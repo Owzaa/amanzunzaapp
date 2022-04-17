@@ -4,8 +4,7 @@
     padding-top: 2px;
     background-color: hsla(0, 1%, 14%, 0.835);
     color:rgba(255, 251, 251, 0.914);
-
-justify-items: auto;
+    justify-items: auto;
 }
 .footer__element{
     display: inline-flex;
@@ -39,7 +38,7 @@ a{
     max-height: 100%;
     margin-top:-1px;
     padding-top: 0px;
-    background-color: rgba(242, 237, 237, 0.421);
+    background-color: rgba(69, 68, 68, 0.421);
 }
 #pulse {
     
